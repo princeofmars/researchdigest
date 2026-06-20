@@ -21,6 +21,18 @@ export default function Home() {
       </header>
 
       <main className="space-y-16">
+        <section className="bg-black text-white p-6 mb-10">
+          <h2 className="text-xs uppercase tracking-widest mb-4">Customize Your Digest</h2>
+          <form className="flex flex-col gap-4">
+            <input 
+              type="text" 
+              placeholder="Enter your research field (e.g., Quantum Biology)..." 
+              className="p-2 text-black w-full"
+            />
+            <button type="submit" className="bg-white text-black p-2 text-xs uppercase tracking-widest">Generate</button>
+          </form>
+        </section>
+
         <section>
           <h2 className="text-xs uppercase tracking-widest mb-6">Latest Papers</h2>
           {digest.papers.map((p, i) => (
