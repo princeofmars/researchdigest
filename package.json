@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "npx next dev",
-    "build": "npx next build",
+    "build": "npm install && npx next build && npx next export",
     "start": "npx next start"
   },
   "dependencies": {
