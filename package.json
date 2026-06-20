@@ -2,9 +2,9 @@
   "name": "research-digest",
   "version": "0.1.0",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npx next dev",
     "build": "npm install && next build",
-    "start": "next start"
+    "start": "npx next start"
   },
   "dependencies": {
     "next": "^16.2.9",
